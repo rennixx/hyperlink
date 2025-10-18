@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /b \"d:\\projects\\hyperlink\")",
+      "Bash(npm init -y)",
+      "Bash(npm install)",
+      "Bash(npm create vite@latest . -- --template react-ts)",
+      "Bash(npx tailwindcss init -p)",
+      "Bash(npx prisma init --datasource-provider sqlite)",
+      "Bash(npx prisma migrate dev --name init)",
+      "Bash(test -f .env)",
+      "Bash(npm run dev)",
+      "Bash(npm run seed)",
+      "Bash(curl -s http://localhost:3000/health)",
+      "Bash(curl -s http://localhost:3000/api/graph)",
+      "Bash(curl -s http://localhost:3000/api/graph/stats)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)",
+      "Bash(findstr :5173)",
+      "Bash(taskkill /F /PID 7584)",
+      "Bash(taskkill /F /PID 8896)",
+      "Bash(taskkill //F //PID 7584)",
+      "Bash(taskkill //F //PID 8896)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm install html-to-image)",
+      "Bash(npm run reset)",
+      "Bash(git init)",
+      "Bash(git add .)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
