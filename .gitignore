@@ -32,3 +32,6 @@ Thumbs.db
 
 # Misc
 .cache/
+
+# Local-only and generated files
+.claude/settings.local.json
